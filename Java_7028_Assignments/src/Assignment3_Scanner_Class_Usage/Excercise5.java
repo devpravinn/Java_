@@ -8,6 +8,7 @@ public class Excercise5 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number:: ");
 		int num = sc.nextInt();
+		sc.close();
 		System.out.println("The number entered by user is:: "+num);
 	}
 }
