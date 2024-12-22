@@ -4,7 +4,7 @@ public class Excercise2_Child extends Excercise2_Parent {
 	String modelType;
 	
 	public void showDetail() {
-		vehicleType = "Car";
+		vehicleType = "Car"; //accessing Vehicle class member is possible because of inheritance
 		modelType = "Sports";
 		System.out.println(modelType+" "+vehicleType);
 	}
